@@ -50,7 +50,10 @@ describe "Pokemon" do
 
     let(:pikachu){Pokemon.find(1, @db)}
     let(:magikarp){Pokemon.find(2, @db)}
+<<<<<<< HEAD
     
+=======
+>>>>>>> 3155280b52816a5cb508b0eede712f48d143eaf8
 =begin
     # remove the 'x' before 'it' to run these tests
     xit "knows that a pokemon have a default hp of 60" do
@@ -72,6 +75,9 @@ describe "Pokemon" do
       expect(Pokemon.find(2, @db).hp).to eq(0)
     end
 =end
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3155280b52816a5cb508b0eede712f48d143eaf8
   end
 end
